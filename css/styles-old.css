@@ -1,6 +1,6 @@
 .row-header {
   margin: 0px auto;
-  padding: 0px 0px;
+  padding: 0px auto;
 }
 .row-content {
   margin: 0px auto;
@@ -14,10 +14,10 @@
   padding: 20px 0px;
 }
 .jumbotron {
-  margin: 0px auto;
   padding: 70px 30px;
+  margin: 0px auto;
   background-color: #9575cd;
-  color: white;
+  color: floralwhite;
 }
 address {
   font-size: 80%;
@@ -25,7 +25,7 @@ address {
   color: #0f0f0f;
 }
 body {
-  padding: 50px 0px 50px 0px;
+  padding: 50px 0px;
   z-index: 0;
 }
 .navbar-dark {
@@ -37,24 +37,26 @@ body {
   border-bottom: 1px solid #ddd;
   padding: 10px;
 }
+.btn:hover {
+  color: floralwhite;
+}
 .carousel {
   background-color: #512da8;
 }
-.carousel .carousel-item {
+.carousel-item {
   height: 300px;
 }
-.carousel .carousel-item img {
+.carousel-item img {
   position: absolute;
-  top: 0;
+  top:0;
   left: 0;
   min-height: 300px;
+}
+img {
   image-rendering: -moz-crisp-edges;
 }
 #carouselButton {
   right: 0px;
   position: absolute;
   bottom: 0px;
-}
-.btn:hover {
-  color: floralwhite;
 }
