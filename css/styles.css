@@ -55,3 +55,13 @@ body {
 
 .btn:hover {
   color: floralwhite; }
+
+.modal-header {
+  background-color: #512da8; }
+  .modal-header .close {
+    color: floralwhite; }
+  .modal-header .modal-title {
+    color: floralwhite; }
+
+.modal-body {
+  background-color: #d1c4e9; }
